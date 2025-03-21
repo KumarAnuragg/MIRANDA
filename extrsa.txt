@@ -1,0 +1,131 @@
+#page4{
+    height: 150vh;
+    width: 100%;
+    background-color: #C4BDB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page4_left{
+    width: 65%;
+    padding: 80px 60px;
+    border-right: 1px solid #2f2f2f;
+}
+
+#page4_topleft{
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#page4_top1{
+    width: 45%;
+    padding: 5px 10px;
+    border-right: 1px solid #2f2f2f;
+}
+
+#page4_top1 h2{
+    font-family: canopee;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+#page4_top1 h3{
+    font-family: domain;
+    font-size: 50px;
+    color: #1C1C1A;
+    margin: 30px 0px;
+    font-weight: 100;
+}
+
+#page4_top1 h6{
+    color: #4b4b4b;
+    font-family: domain;
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+#page4_top2{
+    width: 55%;
+    padding: 5px 50px;
+}
+
+#page4_top2 #page4_top2_img{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#page4_top2_img img{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #222;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#page4_top2_img:hover img{
+    scale: 1.1;
+}
+
+#page4_top2 h4{
+    font-family: canopee;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#page4_top2 p{
+    color: #2f2f2f;
+    font-size: 23px;
+    font-weight: 100;
+    font-family: domain;
+}
+
+#page4_left .page4_full{
+    padding-top: 50px;
+    height: 70%;
+    width: 100%;
+    object-fit: cover;   
+}
+
+#page4_right{
+    width: 33%;
+    height: 100%;
+    padding: 80px 60px;
+}
+
+#page4_right h2{
+    font-family: canopee;
+    font-weight: 200;
+    font-size: 100px;
+}
+
+#page_right h2 span{
+    line-height: 140px;
+    font-family: canopee;
+    font-weight: 400;
+    font-size: 210px;
+}
+
+#page4_right p{
+    font-family: domain;
+    font-weight: 100;
+    font-size: 35px;
+    color: #1C1C19;
+    margin-bottom: 50px;
+}
+
+#page4_right #ellips{
+    height: 250px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
